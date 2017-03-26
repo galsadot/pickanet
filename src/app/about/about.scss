@@ -1,0 +1,17 @@
+.about-page{
+
+  //background: url("https://s3-us-west-1.amazonaws.com/pickanet/assets/images/net-land1.jpg") center no-repeat;
+  background: url("../../assets/images/net-land1.jpg") center no-repeat;
+  background-size: 95%;
+  display: flex;
+  justify-content: flex-end;
+  .about-text{
+    height: 100%;
+    overflow-y: auto;
+    float: right;
+    padding: 60px;
+    max-width: 40%;
+    text-align: right;
+    box-sizing: border-box;
+  }
+}

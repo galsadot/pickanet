@@ -1,0 +1,4 @@
+<div *ngFor="let item of cartItems" class="cart-item-line">
+  <button (click)="removeItem(item)">X</button>
+  {{item.name}}
+</div>

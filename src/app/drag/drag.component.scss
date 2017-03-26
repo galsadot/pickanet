@@ -1,0 +1,20 @@
+.shopping-list{
+  width: 15%;
+  padding: 0 30px;
+}
+.dropable-net{
+  flex:1;
+}
+
+.items-container{
+  width:20%;
+  display: flex;
+  justify-content: space-between;
+}
+.item-wrapper{
+  border: 1px solid #cccccc;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
