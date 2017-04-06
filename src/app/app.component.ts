@@ -7,4 +7,5 @@ import {Component, Output, Input} from '@angular/core';
 })
 export class AppComponent {
   @Input() cartItems;
-}
+
+  }

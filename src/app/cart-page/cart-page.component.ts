@@ -7,4 +7,9 @@ import {Component, Output, Input} from '@angular/core';
 })
 export class CartPageComponent {
   @Input() cartItems;
+
+  constructor(){
+  }
+
+
 }

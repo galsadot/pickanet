@@ -72,3 +72,10 @@ body{
   box-sizing: border-box;
   overflow-y: auto;
 }
+
+.ui-layout{
+  display: flex;
+}
+.ui-layout-flex{
+  flex: 1;
+}

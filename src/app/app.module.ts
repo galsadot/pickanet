@@ -13,6 +13,8 @@ import { StandartBtnComponent } from "./shared/standart-button/standart-button.c
 import { AppCartComponent } from "./shared/cart/cart.component";
 import { CartPageComponent } from "./cart-page/cart-page.component";
 import {CoimngComponent} from "./coming/coming";
+import {PaymentComponent} from "./payment/payment.component";
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import {CoimngComponent} from "./coming/coming";
     StandartBtnComponent,
     AppCartComponent,
     CartPageComponent,
-    CoimngComponent
+    CoimngComponent,
+    PaymentComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
