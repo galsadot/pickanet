@@ -25,7 +25,6 @@ import { FormComponent } from './form/form.component';
     StandartBtnComponent,
     AppCartComponent,
     CartPageComponent,
-    CoimngComponent,
     PaymentComponent,
     FormComponent
   ],
