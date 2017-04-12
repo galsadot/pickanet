@@ -1,3 +1,5 @@
+@import "assets/style/flexbox";
+
 body{
   width:100%;
   margin: 0;
@@ -73,9 +75,36 @@ body{
   overflow-y: auto;
 }
 
-.ui-layout{
-  display: flex;
+.ui-space-small{
+  padding:10px;
 }
-.ui-layout-flex{
-  flex: 1;
+.ui-space-regular{
+  padding:15px;
+}
+.ui-space-medium{
+  padding:20px;
+}
+.ui-space-large{
+  padding:25px;
+}
+.ui-space-t-small{
+  padding:10px 0 0;
+}
+.ui-space-t-regular{
+  padding:15px 0 0;
+}
+.ui-space-t-medium{
+  padding:20px 0 0;
+}
+.ui-space-t-large{
+  padding:25px 0 0;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.pointer{
+  cursor: pointer;
 }

@@ -1,4 +1,61 @@
-<div *ngFor="let item of cartItems" class="cart-item-line">
-  <button (click)="removeItem(item)">X</button>
-  {{item.name}}
+<div>
+  <span>{{netTitle}}</span>
 </div>
+<div class="cart-wrap ui-layout ui-flex-wrap ui-space-medium" ui-layout-align="space-between center">
+  <div *ngFor="let net of nets; let i = $index" (click)="onNetSelect(net)"
+       [ngClass]="{selected: selectedNet === net}"
+       class="ui-space-regular pointer">
+    <div class="item-wrapper text-center ui-space-small">
+      <img src="{{net.ImgURL}}"/>
+      <div class="ui-layout-column">
+        <span>{{net.Name}}</span>
+        <span>{{net.Length}} * {{net.Width}}</span>
+        <span>מרווח של {{net.Gap}} סנטימטר</span>
+        <span style="direction: rtl">{{net.Price}} ש"ח</span>
+        <div *ngIf="selectedNet === net">
+          <p-spinner size="1" [(ngModel)]="net.ID" [min]="0" [max]="20"></p-spinner>
+          <span>כמות:</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span>{{accesoriesTitle}}</span>
+</div>
+<div class="ui-layout ui-flex-wrap ui-space-medium" ui-layout-align="space-between center">
+  <div *ngFor="let item of extras" (click)="onSelect(item)"
+       style="margin: 15px;">
+    <div class="ui-layout-column item-wrapper text-center ui-space-small pointer"
+         ui-layout-align="space-between center"
+         style="width: 190px; height: 250px;">
+      <img src="{{item.ImgURL}}" style="max-width: 100%;"/>
+      <div class="ui-layout-column ui-layout-flex ui-space-t-small" ui-layout-align="space-around center">
+        <span>{{item.Name}}</span>
+        <span style="direction: rtl">{{item.Price}} ש"ח</span>
+        <div>
+          <span>כמות:</span>
+          <p-spinner size="1" [(ngModel)]="item.Quantity" [min]="0" [max]="20"></p-spinner>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--<ul class="heroes">
+  <li >
+    <span class="badge">{{net.ID}}</span> {{net.Name}}
+  </li>
+</ul>
+<div *ngIf="selectedNet">
+  <h2>
+    {{selectedNet.Name | uppercase}} is my net
+  </h2>
+  <button (click)="gotoDetail()">View Details</button>
+</div>
+
+-->

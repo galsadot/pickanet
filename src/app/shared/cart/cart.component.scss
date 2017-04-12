@@ -2,3 +2,26 @@
   display: flex;
   justify-content: space-between;
 }
+
+.item-wrapper{
+  min-width: 150px;
+  background: white;
+  border: 1px solid #cccccc;
+  &:hover{
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  }
+}
+
+.selected{
+  .item-wrapper{
+   border: 1px solid gold;
+  }
+}
+
+@media screen and(max-width: 600px){
+  .cart-wrap{
+    display: block;
+  }
+}

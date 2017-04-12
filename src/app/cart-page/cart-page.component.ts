@@ -6,7 +6,6 @@ import {Component, Output, Input} from '@angular/core';
   styleUrls: ['cart-page.component.scss']
 })
 export class CartPageComponent {
-  @Input() cartItems;
 
   constructor(){
   }

@@ -1,3 +1,4 @@
+/*
 import {Component, Output, Input, EventEmitter, OnInit} from '@angular/core';
 
 @Component({
@@ -9,10 +10,10 @@ export class DragComponent implements OnInit{
   @Output('dragedData') dragedData;
   @Output() cartItem: EventEmitter<any> = new EventEmitter();
 
-  private title:string = 'הרכיבו את הרשת המושלמת שלכם';
-  private goToPayment:string = 'המשיכו לתשלום';
+  public title:string = 'הרכיבו את הרשת המושלמת שלכם';
+  public goToPayment:string = 'המשיכו לתשלום';
 
-  private transferData:Array<Object> = [
+  public transferData:Array<Object> = [
     {id:1, name: 'Hello', pic: '../../assets/images/clip1.png'},
     {id:2, name: 'Hello1', pic: '../../assets/images/pic.jpg'},
     {id:3, name: 'Hello2', pic: '../../assets/images/clip1.png'},
@@ -28,8 +29,8 @@ export class DragComponent implements OnInit{
   ];
 
 
-  private net:Array<number> = [];
-  private cartItems: Array<Object> = [];
+  public net:Array<number> = [];
+  public cartItems: Array<Object> = [];
 
 
   constructor(){}
@@ -73,3 +74,4 @@ export class squareInfo{
   pic = "";
   name = '';
 }
+*/

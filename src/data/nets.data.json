@@ -1,0 +1,56 @@
+[
+  {
+    "ID": 0,
+    "Length": 4,
+    "Width": 5,
+    "Gap": 20,
+    "Price": 160,
+    "Color": "Black",
+    "ImgURL": "http://www.pickanet.co.il/assets/nets/test.bmp"
+  },
+  {
+    "ID": 1,
+    "Length": 4,
+    "Width": 5,
+    "Gap": 20,
+    "Price": 160,
+    "Color": "White",
+    "ImgURL": "http://www.pickanet.co.il/assets/nets/test.bmp"
+  },
+  {
+    "ID": 2,
+    "Length": 4,
+    "Width": 5,
+    "Gap": 20,
+    "Price": 160,
+    "Color": "Silver",
+    "ImgURL": "http://www.pickanet.co.il/assets/nets/test.bmp"
+  },
+  {
+    "ID": 3,
+    "Length": 4,
+    "Width": 6,
+    "Gap": 15,
+    "Price": 150,
+    "Color": "Black",
+    "ImgURL": "http://www.pickanet.co.il/assets/nets/test.bmp"
+  },
+  {
+    "ID": 4,
+    "Length": 4,
+    "Width": 6,
+    "Gap": 15,
+    "Price": 150,
+    "Color": "White",
+    "ImgURL": "http://www.pickanet.co.il/assets/nets/test.bmp"
+  },
+  {
+    "ID": 5,
+    "Length": 4,
+    "Width": 6,
+    "Gap": 15,
+    "Price": 150,
+    "Color": "Silver",
+    "ImgURL": "http://www.pickanet.co.il/assets/nets/test.bmp"
+  }
+]

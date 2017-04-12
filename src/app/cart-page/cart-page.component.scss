@@ -1,4 +1,11 @@
+.page-container{
+  max-height: none;
+  height: auto;
+  width: 100%;
+}
+
 .cart-item-line{
   display: flex;
   justify-content: space-between;
 }
+
